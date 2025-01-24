@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-purple: #815CC8;
+  --color-lightSky: #1BABFE;
+  --color-darkPurple: #7f5dc9;
+  --color-blue: #5b79dc;
+}
+
+html,
+body {
+  background: #000;
+}
