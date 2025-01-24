@@ -14,7 +14,7 @@ const Nft = () => {
                   Vulputate sollicitudin tellus eget consequat lectus dignissim integer in vitae. 
                   Commodo integer dis tortor cras maecenas sit. Et nunc et platea elementum, cursus morbi. Placerat molestie nibh parturient lectus magna sed fusce diam urna. Quam magna duis imperdiet posuere iaculis."/>
               </div>
-        <img src={hero} alt="nft-hero" className='h-[639px] max-lg:h-[550px]  max-md:h-[400px] max-md:mx-auto max-md:pt-9 max-sm:pt-6 pointer-events-none' />
+        <img src={hero} alt="nft-hero" className='h-[639px] max-lg:h-[550px] max-md:h-[400px] max-md:mx-auto max-md:pt-9 max-sm:pt-6 pointer-events-none' />
           </div>
     </div>
   )
