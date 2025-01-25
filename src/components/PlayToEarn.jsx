@@ -7,7 +7,7 @@ import rightShadow from "../assets/images/png/right-shadow.png"
 
 const PlayToEarn = () => {
     return (
-        <div className='max-lg:pt-10 max-md:pt-7 max-sm:pt-5 pb-[110px] max-md:pb-16 max-sm:pb-8 overflow-hidden'>
+        <div id='presale' className='max-lg:pt-10 max-md:pt-7 max-sm:pt-5 pb-[110px] max-md:pb-16 max-sm:pb-8 overflow-hidden'>
             <div className='max-w-[1352px] px-4 mx-auto'>
                 <Heading text="Play To" secondaryText="Earn" myClass="text-center" />
                 <Description myClass="text-center pt-4 max-lg:pt-2 max-w-[1024px] mx-auto pb-8" text="Gilded World will be the first game released by Gilded Games. It is an MMORPG, browser based game that is unlike any other. We have taken inspiration from some of the most popular and successful MMORPG and RPG games and have boiled it down to the best online gameplay that people will actually want to play!" />

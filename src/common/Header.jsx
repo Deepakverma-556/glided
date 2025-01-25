@@ -27,7 +27,7 @@ const Header = () => {
                     <a href="#logo"><img src={glidedLogo} alt="glided-logo" className='h-[57.58px] pointer-events-none max-xl:h-12 max-md:!h-10 max-sm:!h-8' /></a>
                     <ul className='flex items-center gap-10 max-xl:gap-5 max-lg:hidden'>
                         {HEADER_LIST.map(function (item, i) {
-                            return <li key={i}><a href={item.link} className='text-white josefin text-[22px] leading-[22px] max-xl:text-xl'>{item.title}</a></li>
+                            return <li key={i}><a href={item.link} className='text-white josefin text-[22px] leading-[22px] max-xl:text-xl transition-all duration-300 hover:text-lightSky'>{item.title}</a></li>
                         })}
                         <li><CustomButton text="Discord" icon={<Discord />} myClass="bg-gradient-to-b from-purple to-lightSky hover:shadow-none gap-[10px] px-[34px] py-[13.7px]" /></li>
                     </ul>
@@ -46,7 +46,7 @@ const Header = () => {
                     }`}>
                     <ul className='flex items-center flex-col gap-10 max-sm:gap-7'>
                         {HEADER_LIST.map(function (item, i) {
-                            return <li key={i}><a onClick={() => setOpen(false)} href={item.link} className='text-white josefin text-[22px] leading-[22px] max-xl:text-xl max-sm:lg'>{item.title}</a></li>
+                            return <li key={i}><a onClick={() => setOpen(false)} href={item.link} className='text-white josefin text-[22px] leading-[22px] max-xl:text-xl max-sm:lg transition-all duration-300 hover:text-lightSky'>{item.title}</a></li>
                         })}
                         <li><CustomButton CustomOnClick={() => setOpen(false)} text="Discord" icon={<Discord />} myClass="bg-gradient-to-b from-purple to-lightSky gap-[10px] !px-[34px] !py-[13.7px]" /></li>
                     </ul>

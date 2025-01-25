@@ -5,7 +5,7 @@ import hero from "../assets/images/webp/nft-hero.webp"
 
 const Nft = () => {
   return (
-      <div className='bg-[url(./assets/images/webp/nft-bg.webp)] bg-cover bg-no-repeat pt-[123px] max-lg:pt-0 pb-[194px] max-lg:py-12'>
+      <div id='about' className='bg-[url(./assets/images/webp/nft-bg.webp)] bg-cover bg-no-repeat pt-[123px] max-lg:pt-0 pb-[194px] max-lg:py-12'>
           <div className='max-w-[1238px] mx-auto px-4 flex items-center justify-between max-md:flex-wrap'>
               <div>
                   <Heading myClass="pb-4 max-lg:pb-2 max-md:text-center" primaryText="NFT" text="Utility" />
