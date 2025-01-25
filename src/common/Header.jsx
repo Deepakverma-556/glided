@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import glidedLogo from "../assets/images/png/glided-logo.png"
 import CustomButton from './CustomButton'
-import { HEADER_LIST } from '../utils/helper'
 import { Discord } from '../utils/icons'
+import { HEADER_LIST } from '../utils/helper'
 
 const Header = () => {
     const [open, setOpen] = useState()

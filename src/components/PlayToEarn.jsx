@@ -16,7 +16,7 @@ const PlayToEarn = () => {
                         <img src={gilded} alt="gilded" className='w-full rounded-[13px] max-h-[551px] object-cover pointer-events-none' />
                     </div>
                     <img src={leftShadow} alt="left-shadow" className='absolute -left-[38.5%] top-1/2 -translate-y-1/2 max-xl:hidden' />
-                    <img src={leftShadow} alt="right-shadow" className='absolute -right-[39%] top-1/2 -translate-y-1/2 max-xl:hidden' />
+                    <img src={rightShadow} alt="right-shadow" className='absolute -right-[39%] top-1/2 -translate-y-1/2 max-xl:hidden' />
                 </div>
             </div>
         </div>

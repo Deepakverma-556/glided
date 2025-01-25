@@ -3,6 +3,12 @@ import Hero from "./components/Hero"
 import Nft from "./components/Nft"
 import PlayToEarn from "./components/PlayToEarn"
 import './App.css'
+import TokenInfo from "./components/TokenInfo"
+import Roadmap from "./components/Roadmap"
+import Uniswap from "./components/Uniswap"
+import PoweredBy from "./components/PoweredBy"
+import Faq from "./components/Faq"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -10,7 +16,13 @@ function App() {
       <Hero />
       <Nft />
       <PlayToEarn />
-      <GildedGames/>
+      <GildedGames />
+      <TokenInfo />
+      <Roadmap />
+      <Uniswap />
+      <PoweredBy />
+      <Faq />
+      <Footer/>
     </>
   )
 }
