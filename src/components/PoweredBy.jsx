@@ -4,7 +4,7 @@ import { POWERED_LIST } from '../utils/helper'
 
 const PoweredBy = () => {
   return (
-    <div>
+    <div id='nodes' className='pt-[58px] max-lg:pt-0'>
       <div className='max-w-[1349px] mx-auto px-4 mt-[58px]'>
         <Heading primaryText="Powered" text="By:" myClass="text-center pb-[68px] max-lg:pb-6 max-sm:pb-2" />
         <div className='flex flex-wrap -mx-3 justify-center'>

@@ -14,10 +14,10 @@ const Uniswap = () => {
           <Heading text="Buy On" secondaryText="Uniswap" myClass="pb-[21px] max-md:pb-4 max-sm:text-center" />
           <ul className='list-disc pl-6'>
             {UNISWAP_LIST.map(function (item, i) {
-              return <li className='josefin text-xl max-md:text-lg max-md:pb-2 max-sm:pb-1 leading-[25.5px] text-white pb-[11px]'>{item}</li>
+              return <li key={i} className='josefin text-xl max-md:text-lg max-md:pb-2 max-sm:pb-1 leading-[25.5px] text-white pb-[11px]'>{item}</li>
             })}
           </ul>
-          <CustomButton icon={<Unicorn/>} text="Buy Now" myClass="mt-[30px] max-md:mt-5 gap-[10px] px-[19.3px] py-[13.7px] bg-gradient-to-r from-purple to-lightSky max-sm:mx-auto"/>
+          <CustomButton icon={<Unicorn/>} text="Buy Now" myClass="mt-[30px] max-md:mt-5 gap-[10px] px-[19.3px] py-[13.7px] bg-gradient-to-r from-purple to-lightSky hover:shadow-none transition-all duration-300 max-sm:mx-auto"/>
         </div>
         <img src={goldBox} alt="gold-box" className='h-[365px] max-lg:h-72 max-md:h-60 object-cover pointer-events-none mr-[188px] max-xl:mr-0 max-sm:mx-auto' />
       </div>

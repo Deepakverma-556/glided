@@ -9,6 +9,7 @@ import Uniswap from "./components/Uniswap"
 import PoweredBy from "./components/PoweredBy"
 import Faq from "./components/Faq"
 import Footer from "./components/Footer"
+import BackToTop from "./common/BackToTop"
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <Uniswap />
       <PoweredBy />
       <Faq />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </>
   )
 }

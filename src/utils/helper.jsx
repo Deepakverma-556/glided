@@ -74,3 +74,30 @@ export const POWERED_LIST = [
         imageAlt: "polygon",
     },
 ]
+
+export const ROADMAP_LIST = [
+    {
+        phase: "Phase 1",
+        title: "Q1",
+        optionOne: "Whitelist/Presale Created",
+        optionTwo: "Private Sale",
+        optionThree: "Public Sale",
+        optionFour: "Prime Eternal Owner Perks"
+    },
+    {
+        phase: "Phase 2",
+        title: "Q2",
+        optionOne: "Token & Staking Release",
+        optionTwo: "Staking Gameplay",
+        optionThree: "",
+        optionFour: ""
+    },
+    {
+        phase: "Phase 3",
+        title: "Q3",
+        optionOne: "MVP Gameplay Release",
+        optionTwo: "Battle Modes Release",
+        optionThree: "Land Gameplay Release",
+        optionFour: "Gear Forging Release"
+    },
+]
