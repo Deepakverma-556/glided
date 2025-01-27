@@ -12,7 +12,7 @@ const Hero = () => {
 
     useEffect(() => {
         const targetTime = new Date();
-        targetTime.setHours(14, 0, 0, 0);
+        targetTime.setHours(10, 0, 0, 0);
 
         const interval = setInterval(() => {
             const now = new Date();

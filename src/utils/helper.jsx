@@ -89,8 +89,6 @@ export const ROADMAP_LIST = [
         title: "Q2",
         optionOne: "Token & Staking Release",
         optionTwo: "Staking Gameplay",
-        optionThree: "",
-        optionFour: ""
     },
     {
         phase: "Phase 3",
